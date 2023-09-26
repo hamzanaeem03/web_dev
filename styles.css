@@ -1,0 +1,39 @@
+.top_div {
+
+    width: 100vw;
+    border-radius: 20vh;
+}
+
+.middle_div{
+    width: 100vw;
+    justify-content: space-between;
+}
+.asset_image{
+display: flex;
+    height:75vh;
+    justify-content: center;
+}
+
+#btn {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    font-size: large;
+    border: 2px solid black;
+    top: 0;
+    left: 0;
+}
+
+#btn.winner {
+    background-color: green;
+}
+
+.carousel-inner img {
+    display: block;
+    margin: 0 auto;
+    height: 300px; 
+    object-fit: cover; 
+}
